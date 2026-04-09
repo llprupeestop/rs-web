@@ -4,7 +4,6 @@ import team1 from '@/assets/rupeestop_assets/teamsImages/team1_1.jpg';
 import team2 from '@/assets/rupeestop_assets/teamsImages/team2.jpg';
 import team3 from '@/assets/rupeestop_assets/teamsImages/team3.jpg';
 import team4 from '@/assets/rupeestop_assets/teamsImages/team4.jpg';
-import team5 from '@/assets/rupeestop_assets/teamsImages/team5_1.jpg';
 import team6 from '@/assets/rupeestop_assets/teamsImages/team6.jpg';
 import team7 from '@/assets/rupeestop_assets/teamsImages/team7.png';
 
@@ -43,14 +42,6 @@ const teamsData = [
     twitter: '#',
     linkedin: '#',
     description: "Ujjwal brings a unique combination of technical, community-building expertise and finance enthusism to our team, gained through his experience. He is a collaborative and empathetic person, fostering strong relationships and driving collective success.",
-  },
-  {
-    name: 'Pranay',
-    position: 'Position',
-    img: team5,
-    twitter: '#',
-    linkedin: '#',
-    description: "Pranay is a creative and marketing expert who crafts compelling stories and campaigns. He's a master communicator with a keen understanding of what drives human connection and engagement.",
   },
   {
     name: 'Mohit',
