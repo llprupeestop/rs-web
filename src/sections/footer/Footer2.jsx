@@ -237,9 +237,9 @@ function Footer2() {
 
             {/* Trems and conditions */}
             <div className="w-full mx-auto">
-              <p className="font-lato font-medium text-xs text-gray-400 text-center mb-2">
-                *Mutual Fund investments are subject to market risks, read all
-                scheme-related documents carefully.
+              <p className="font-lato font-normal text-[11px] text-gray-500 text-center mb-2 leading-relaxed max-w-md mx-auto">
+                Mutual Fund investments are subject to market risks, read all
+                scheme-related documents carefully
               </p>
               <div className="flex items-center justify-center gap-3 text-gray-400">
                 <Link
@@ -258,7 +258,18 @@ function Footer2() {
             </div>
           </div>
         </div>
-        <p className='hidden sm:block font-lato font-medium text-base mt-5 text-gray-400 text-center'>*Mutual Fund investments are subject to market risks, read all scheme-related documents carefully.</p>
+        <div className="hidden sm:block mt-6 sm:mt-5 pt-4 border-t border-white/[0.08] max-w-2xl mx-auto px-2">
+          <p className="font-lato font-normal text-xs text-gray-500 text-center leading-relaxed">
+            Mutual Fund investments are subject to market risks, read all
+            scheme-related documents carefully
+          </p>
+          <p className="font-lato font-normal text-[11px] sm:text-xs text-gray-500 text-center mt-1.5 leading-snug">
+            AMFI Registered Mutual Fund Distributor | ARN-125700
+          </p>
+        </div>
+        <p className="font-lato font-normal text-[11px] text-gray-500 text-center mt-4 sm:hidden max-w-md mx-auto px-2 leading-snug">
+          AMFI Registered Mutual Fund Distributor | ARN-125700
+        </p>
         </div>
       </WidthXL>
     </div>
